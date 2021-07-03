@@ -14,56 +14,50 @@
  *
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .intro {
   background: #23424a;
   color: white;
-  padding: 148px  122px;
-  height: 750px;
+  padding: 6rem 5rem;
 }
 
 .container {
-  width: 80%; 
+  width: 80%;
   max-width: 1000px;
   /* margin: 0 auto; */
-
 }
 
 .intro-content {
   width: 70%;
 }
 
-.intro-heading{
+.intro-heading {
   font-size: 48px;
   line-height: 56px;
- 
 }
 
-.intro-p{
-font-size: 21px;
-line-height: 40px;
-color: #d1d1d1;
-margin-bottom: 3rem;
+.intro-p {
+  font-size: 21px;
+  line-height: 40px;
+  color: #d1d1d1;
+  margin-bottom: 3rem;
 }
 
-.intro-button{
-  background-color: #38CFD9;
-  color:#072A2D;
+.intro-button {
+  background-color: #38cfd9;
+  color: #072a2d;
   font-weight: bold;
   font-size: 21px;
   border: none;
   padding: 1rem 2rem;
   border-radius: 2rem;
-
 }
-
-
