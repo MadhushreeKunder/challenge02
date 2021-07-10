@@ -20,6 +20,11 @@
   box-sizing: border-box;
 }
 
+a{
+  margin: 0;  
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -80,9 +85,15 @@ header {
   padding: 1em 0;
 }
 
+.logo{
+  margin-right: 1em;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
+  /* width: 100%;      can be done to move sign in sign up on right, and other on right, else use flex grow */
+  flex-grow: 1; /*  enabling growing*/
 }
 
 .nav__list {
@@ -90,6 +101,9 @@ header {
   padding: 0;
   list-style: none;
   display: flex;
+  align-items: center;
+
+
 }
 
 /* it puts margin left only of a nav item has another nav item before it. home doesnt have nav item before it, so no space is given */
