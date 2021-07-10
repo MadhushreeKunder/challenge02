@@ -1,5 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
 
 /* 
 ////// For this challenge ///////
@@ -33,6 +33,22 @@ img {
 h1 {
   font-size: 3rem;
   margin-top: 0;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase; 
+  color: #23424A;
+  font-weight: 900;
+  background-color: #38CFD9;
+  padding: .75em 2em;
+  border-radius: 100px;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: .75; 
 }
 
 .container {
@@ -78,34 +94,26 @@ h1 {
   margin-bottom: 3em;
 }
 
-.btn {
-  display: inline-block;
-  text-decoration: none;
-  text-transform: uppercase; 
-  color: #23424A;
-  font-weight: 900;
-  background-color: #38CFD9;
-  padding: .75em 2em;
-  border-radius: 100px;
+
+.primary-content{
+  width: 62%;
 }
 
-.btn:hover,
-.btn:focus {
-  opacity: .75; 
-}
 
-.details{
+.main{
   margin-top: 2rem;
 }
 
-.paragraph__title{
+.section-title{
   color: #136C72;
 }
 
-.three__cols{
+.sidebar{
+  width: 32%;
   background-color: #136C72;
   color: white;
   text-align: center;
   padding: 1.2rem;
   
 }
+
